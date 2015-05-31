@@ -68,7 +68,7 @@
   service: 
     name: rsync
     state: stopped 
-
+- pause: seconds=1
 - service: 
     name: rsync
     state: started
